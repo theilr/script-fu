@@ -2,13 +2,13 @@
 
 ### tl;dr
 
-This repository of GIMP script-fu routines is obsolete; if you are interested in doing the processing/manipulation that these scripts do, you should check out my python-based [Gimp-frastructure](https://github.com/theilr/gimp-frastructure) repository.
+This repository of GIMP script-fu routines is essentially obsolete; if you are interested in doing the processing/manipulation that these scripts do, you should check out my python-based [Gimp-frastructure](https://github.com/theilr/gimp-frastructure) repository.
 
 ### Background
 
 This repository contains a miscellaneous collection of scripts for image processing with the [GNU Image Manipulation Program](https://www.gimp.org/GIMP), aka the GIMP. Most of these routines were initially written in 2009, when I learned how to use *script-fu* to automate tasks that I had been doing by hand.  Several of them were uploaded to the now defunct [Gimp Registry](https://www.gimp.org/registry). There were some minor updates for a few years after that, but for most of the decade, I was distracted by other projects.  Sometime in 2019, I tried running some of my scripts on an updated GIMP, and found that some of them failed, due to changes in GIMP during that time; ffor example, *plug-in-gauss* (which blurs an image by convolving it with a Gaussian kernel of user-specified radius) had a newly added restriction that the blurring radius must be less than 500 pixels.  Some of those routines were modified in 2019 to work around these changes.  In 2022, I re-wrote these scripts as python plug-ins, and it is the python plug-ins that I intend to maintain in the future.
 
-So this is essentially an archival repository.
+So this is primarily an archival repository. But if you, or your version of GIMP, have a problem with python, these may be useful as alternatives.  If you find bugs in this software, I won't be surprised, but I'm happy to hear about them. I may even be able to fix them.
 
 ### List of scripts
 
